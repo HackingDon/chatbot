@@ -1,0 +1,27 @@
+
+ul {
+  list-style: none;
+}
+li:nth-child(odd) {
+  flex-direction: row-reverse;
+  justify-content: end;
+}
+li:nth-child(odd) span,
+li:nth-child(odd) input:focus,
+li:nth-child(odd) input {
+  background-color: black;
+  border: none;
+  color: #fff;
+  border-radius: 6px 2px 6px 6px;
+}
+li:nth-child(even) {
+  justify-content: start;
+}
+li:nth-child(even) span,
+li:nth-child(even) input,
+li:nth-child(even) input:focus {
+  background-color: white;
+  border: none;
+  color: #000;
+  border-radius: 2px 6px 6px 6px;
+}
