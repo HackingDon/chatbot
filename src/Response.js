@@ -1,5 +1,4 @@
 function Response(query) {
-  debugger
   if (query.includes("Hi") || query.includes("hi")) {
     return "Hello!🥱";
   } else if (query.includes("How") || query.includes("how")) {
